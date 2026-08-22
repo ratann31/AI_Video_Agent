@@ -1,0 +1,44 @@
+# ---------- UI ----------
+streamlit>=1.37.0
+
+# ---------- Audio acquisition ----------
+yt-dlp>=2024.8.6
+pytube>=15.0.0
+pydub>=0.25.1
+# Python 3.13+ removed the standard-library audioop module used by pydub.
+audioop-lts>=0.2.2
+
+# ---------- Transcription (local Whisper) ----------
+openai-whisper>=20231117
+torch>=2.2.0
+torchaudio>=2.2.0
+ffmpeg-python>=0.2.0
+
+# ---------- Translation (Hindi -> English) ----------
+googletrans==4.0.2
+deep-translator>=1.11.4
+
+# ---------- LLM orchestration (LangChain + Mistral) ----------
+langchain>=0.2.14
+langchain-core>=0.2.38
+langchain-community>=0.2.12
+langchain-mistralai>=0.1.13
+mistralai>=1.0.3
+
+# ---------- RAG pipeline ----------
+chromadb>=0.5.5
+langchain-chroma>=0.1.3
+sentence-transformers>=3.0.1
+langchain-huggingface>=0.0.3
+huggingface-hub>=0.24.5
+
+# ---------- PDF / TXT export ----------
+reportlab>=4.2.2
+fpdf2>=2.7.9
+
+# ---------- Utilities ----------
+python-dotenv>=1.0.1
+pydantic>=2.8.2
+numpy>=1.26.4
+tqdm>=4.66.5
+requests>=2.32.3
